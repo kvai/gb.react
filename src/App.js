@@ -1,18 +1,17 @@
+import headerImg from './images/frog.gif'
+import { Message } from './components/Message';
+
+const text = {
+  react: 'Learn React',
+  description: 'JavaScript-библиотека для создания пользовательских интерфейсов',
+}
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img className="headerImg" src={headerImg}/>
+        <Message data={text}/>
       </header>
     </div>
   );
