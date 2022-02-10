@@ -6,15 +6,13 @@ const text = {
   description: 'JavaScript-библиотека для создания пользовательских интерфейсов',
 }
 
-function App() {
+export const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <img className="headerImg" src={headerImg}/>
+        <img className="headerImg" src={headerImg} img={text.react}/>
         <Message data={text}/>
       </header>
     </div>
   );
 }
-
-export default App;
