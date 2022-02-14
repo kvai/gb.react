@@ -1,5 +1,5 @@
 import headerImg from './images/frog.gif'
-import { Message } from './components/Message';
+import { Message } from './components/Message/Message';
 
 const text = {
   react: 'Learn React',
